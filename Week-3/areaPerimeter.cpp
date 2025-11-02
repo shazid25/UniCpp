@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define PI 3.1416
-
 void Rectangle(float height, float width, float &area, float &perimeter) {
     area = height * width;
     perimeter = 2 * (height + width);
@@ -20,8 +18,8 @@ int main() {
 
     Rectangle(height, width, area, perimeter);
 
-    cout << "The area of rectangle is: " << area << endl;
-    cout << "The perimeter of rectangle is: " << perimeter << endl;
+    cout << "The area of the rectangle is: " << area << endl;
+    cout << "The perimeter is: " << perimeter << endl;
 
     return 0;
 }
