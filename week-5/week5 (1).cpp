@@ -54,10 +54,10 @@ int SumOfArray (int* arr, int n) {
 int main() {
 
 //    double res = AVG();
-//
+
 //    cout << "Average of marks = " << res << endl;
 
-    //ArrayOperation();
+//     ArrayOperation();
 
     int arr[] = {1, 2, 3, 4, 5};
     int n = sizeof(arr) / sizeof(arr[0]);

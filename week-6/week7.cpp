@@ -37,9 +37,9 @@ int power(int a, int b) {
 
 int main() {
 
-//    cout << factorial(5) << endl;
+ cout << factorial(5) << endl;
 
-    cout << power(2, 3) << endl;
+    // cout << power(2, 3) << endl;
 
     return 0;
 }

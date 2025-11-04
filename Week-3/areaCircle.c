@@ -4,7 +4,7 @@ using namespace std;
 
 float AreaCircle(float r) {
     float area = PI * (r * r);
-    return area; // return the value to main()
+    return area;
 }
 
 int main() {
@@ -13,7 +13,7 @@ int main() {
     cout << "Enter the radius: ";
     cin >> r;
 
-    area = AreaCircle(r); // store returned value
+    area = AreaCircle(r); 
     cout << "The area of the circle is: " << area << endl;
 
     return 0;

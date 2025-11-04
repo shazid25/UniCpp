@@ -2,7 +2,7 @@
 using namespace std;
 
 void Devisors(int x){
-    cout<<"Divisors of x are: ";
+    cout<<"Divisors of the number are: ";
 for(int i = 1; i<=x;i++){
     if(x%i==0)
 cout<<i << " ";
